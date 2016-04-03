@@ -6,7 +6,9 @@ duplicate all colortables in NCL 6.3.0 to matplotlib colormaps
 Installation
 
     git clone https://github.com/hhuangmeso/nclcmaps.git
+
     cd nclcmaps
+    
     python setup.py install
 
 
