@@ -8,7 +8,7 @@ def _coltbl(name):
     cmaps_dir = os.path.join(
                 os.path.dirname(os.path.abspath(__file__)), 'colormaps')
     cmap_file = os.path.join(cmaps_dir, name+'.rgb')
-    pattern = re.compile(r'\s*(\d[\d\.]*)\s+(\d[\d\.]*)\s+(\d[\d\.]*).*')
+    pattern = re.compile(r'(\d\.?\d*)\s+(\d\.?\d*)\s+(\d\.?\d*)\n')
     with open(cmap_file) as cmap:
         cmap_buff = cmap.read()
     if re.search(r'\s*\d\.\d*', cmap_buff):
