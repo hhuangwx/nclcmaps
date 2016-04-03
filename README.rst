@@ -1,7 +1,9 @@
 nclcmaps
 ========
 
-duplicate all colortables in NCL 6.3.0 to matplotlib colormaps
+Duplicate all colortables in NCL 6.3.0 to matplotlib colormaps
+
+Thanks for wqshen_'s help
 
 Installation::
 
@@ -20,3 +22,5 @@ Usage::
     plt.pcolormesh(a,cmap=nclcmaps.cmaps('BlueDarkOrange18'))
     plt.colorbar()
     plt.show()
+
+.. _wqshen: https://github.com/wqshen/
