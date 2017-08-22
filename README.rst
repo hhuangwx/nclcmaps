@@ -1,6 +1,8 @@
 nclcmaps
 ========
 
+**This package is no longer maintained. Refer to https://github.com/hhuangwx/cmaps for better experience.**
+
 Duplicate all colortables in NCL 6.3.0 to matplotlib colormaps
 
 Thanks for wqshen_'s help
